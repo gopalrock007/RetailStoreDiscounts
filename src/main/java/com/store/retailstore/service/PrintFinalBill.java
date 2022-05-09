@@ -19,8 +19,8 @@ public class PrintFinalBill {
     	System.out.println("Hello Mr/Mrs/Miss: "+ user.getUserName());
     	System.out.println("");
     	productAndQuantityMap.forEach((k,v)->{
-    		 System.out.println("\t"+k.getProductName() + " \t"+ k.getProductType() + " \t" 
-     				+ k.getProductUnitPrice() + " \t" 
+    		 System.out.println("\t"+k.getProductName() + "\t"+ k.getProductType() + "\t" 
+     				+ k.getProductUnitPrice() + "\t" 
      				+ v + ":\t" 
      				+ k.getTotalProductPrice(v));
 		});

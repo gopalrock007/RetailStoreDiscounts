@@ -27,7 +27,7 @@ public class RetailStoreController {
 	@Autowired
 	StoreService storeService;
 
-	@GetMapping("/restore/amount")
+	@GetMapping("/retailstore/amount")
 	public String getAmount() {
 		logger.debug("RetailStoreController inside getAmount() method...");
 		User employee = new User("Rohit", "9876543210", LocalDateTime.now(), UserType.EMPLOYEE);
